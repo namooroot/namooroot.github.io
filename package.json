@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mv": "sudo mv gatsby/public /blog",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,6 @@
   "bugs": {
     "url": "https://github.com/namooroot/namooroot.github.io/issues"
   },
-  "homepage": "https://github.com/namooroot/namooroot.github.io#readme"
+  "homepage": "https://github.com/namooroot/namooroot.github.io#readme",
+  "packageManager": "yarn@3.2.1"
 }
