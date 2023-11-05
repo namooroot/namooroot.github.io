@@ -1,3 +1,4 @@
 node_modules/
 gatsby/
 .yarn/
+.DS_Store
